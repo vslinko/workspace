@@ -1,0 +1,6 @@
+name "project_workspace"
+version "0.1.0"
+depends "apt"
+depends "git"
+depends "vim"
+depends "zsh"

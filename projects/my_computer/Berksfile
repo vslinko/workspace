@@ -1,0 +1,4 @@
+site :opscode
+
+cookbook "vslinko", github: "vslinko/cookbook-vslinko"
+cookbook "my_computer", path: "../../cookbooks/my_computer"

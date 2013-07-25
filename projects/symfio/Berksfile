@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+site :opscode
+
+cookbook "project_workspace", path: "../../cookbooks/project_workspace"
+cookbook "symfio_workspace", path: "../../cookbooks/symfio_workspace"
+cookbook "vslinko", github: "vslinko/cookbook-vslinko"
+
+# see https://github.com/opscode-cookbooks/apt/pull/53
+cookbook "apt", github: "opscode-cookbooks/apt"
