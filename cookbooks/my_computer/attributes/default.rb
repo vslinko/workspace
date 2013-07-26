@@ -4,6 +4,8 @@ default[:my_computer][:home] = "/Users/vyacheslav"
 
 default[:my_computer][:alfred][:url] = "http://cachefly.alfredapp.com/Alfred_2.0.6_203.zip"
 
+default[:my_computer][:caffeine][:url] = "http://download.lightheadsw.com/download.php?software=caffeine"
+
 default[:my_computer][:dropbox][:url] = "https://www.dropbox.com/download?plat=mac"
 
 default[:my_computer][:one_password][:url] = "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.21.zip"
