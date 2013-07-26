@@ -10,6 +10,8 @@ default[:my_computer][:cleanmymac][:url] = "http://dl.devmate.com/com.macpaw.Cle
 
 default[:my_computer][:dropbox][:url] = "https://www.dropbox.com/download?plat=mac"
 
+default[:my_computer][:flux][:url] = "https://justgetflux.com/mac/Flux.zip"
+
 default[:my_computer][:one_password][:url] = "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.21.zip"
 
 default[:my_computer][:skype][:url] = "http://www.skype.com/go/getskype-macosx.dmg"
