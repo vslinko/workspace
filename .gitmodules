@@ -1,0 +1,3 @@
+[submodule "projects/cookbook-vslinko"]
+	path = projects/cookbook-vslinko
+	url = git@github.com:vslinko/cookbook-vslinko.git
