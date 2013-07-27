@@ -16,6 +16,8 @@ default[:my_computer][:hackpad][:url] = "https://hackpad.com/static/app/HackPad-
 
 default[:my_computer][:one_password][:url] = "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.21.zip"
 
+default[:my_computer][:skitch][:url] = "http://cdn1.evernote.com/skitch/mac/release/Skitch-2.6.2.zip"
+
 default[:my_computer][:skype][:url] = "http://www.skype.com/go/getskype-macosx.dmg"
 
 default[:my_computer][:sublime_text][:url] = "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203047.dmg"
