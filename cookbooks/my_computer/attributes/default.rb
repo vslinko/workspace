@@ -10,6 +10,8 @@ default[:my_computer][:cleanmymac][:url] = "http://dl.devmate.com/com.macpaw.Cle
 
 default[:my_computer][:dropbox][:url] = "https://www.dropbox.com/download?plat=mac"
 
+default[:my_computer][:fluid][:url] = "http://fluidapp.com/dist/Fluid_1.7.2.zip"
+
 default[:my_computer][:flux][:url] = "https://justgetflux.com/mac/Flux.zip"
 
 default[:my_computer][:hackpad][:url] = "https://hackpad.com/static/app/HackPad-0.6.1.zip"
