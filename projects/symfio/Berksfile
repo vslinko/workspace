@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 site :opscode
 
 cookbook "project_workspace", path: "../../cookbooks/project_workspace"
