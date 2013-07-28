@@ -34,3 +34,5 @@ default[:my_computer][:sublime_text][:packages] = {
   "Stylus" => "https://github.com/billymoon/Stylus.git",
   "Theme - Soda" => "https://github.com/buymeasoda/soda-theme.git"
 }
+
+default[:my_computer][:transmission][:url] = "http://download.transmissionbt.com/files/Transmission-2.81.dmg"
