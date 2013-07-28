@@ -36,3 +36,5 @@ default[:my_computer][:sublime_text][:packages] = {
 }
 
 default[:my_computer][:transmission][:url] = "http://download.transmissionbt.com/files/Transmission-2.81.dmg"
+
+default[:my_computer][:vlc][:url] = "http://mirror.yandex.ru/mirrors/ftp.videolan.org/vlc/2.0.7/macosx/vlc-2.0.7.dmg"
