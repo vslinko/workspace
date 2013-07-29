@@ -1,6 +1,6 @@
-# symfio
+# polartour
 
->  All symfio repositories.
+>  PolarTour repository.
 
 ## Usage
 
