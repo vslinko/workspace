@@ -17,6 +17,10 @@ end
 
 template "/etc/init/polartour.conf"
 
+link "/etc/init.d/polartour" do
+  to "/lib/init/upstart-job"
+end
+
 service "polartour" do
   provider Chef::Provider::Service::Upstart
   supports :restart => true, :start => true, :stop => true
