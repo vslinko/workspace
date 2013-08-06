@@ -6,6 +6,8 @@ default[:my_computer][:alfred][:url] = "http://cachefly.alfredapp.com/Alfred_2.0
 
 default[:my_computer][:caffeine][:url] = "http://download.lightheadsw.com/download.php?software=caffeine"
 
+default[:my_computer][:chrome][:url] = "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
+
 default[:my_computer][:cleanmymac][:url] = "http://dl.devmate.com/com.macpaw.CleanMyMac2/CleanMyMac2.dmg"
 
 default[:my_computer][:dropbox][:url] = "https://www.dropbox.com/download?plat=mac"
