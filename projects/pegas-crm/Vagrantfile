@@ -13,7 +13,8 @@ Vagrant.configure("2") do |config|
     chef.json = {
       :nodejs_workspace => {
         :project => {
-          :name => "pegas-crm"
+          :name => "pegas-crm",
+          :git => "git@github.com:rithis/pegas-crm.git"
         }
       }
     }
