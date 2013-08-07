@@ -1,0 +1,12 @@
+description "<%= node[:nodejs_workspace][:project][:name] %>"
+
+start on (local-filesystems and net-device-up IFACE!=lo)
+stop on [!12345]
+
+console log
+
+env HOME=<%= node[:project_workspace][:dir] %>
+setuid <%= node[:project_workspace][:user] %>
+setgid <%= node[:project_workspace][:group] %>
+chdir <%= node[:nodejs_workspace][:project][:dir] %>
+exec <%= node[:nodejs_workspace][:project][:daemon_command] %>
