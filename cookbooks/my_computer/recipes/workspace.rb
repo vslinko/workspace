@@ -21,6 +21,7 @@ end
 
 gem_package "chef"
 gem_package "berkshelf"
+gem_package "librarian-chef"
 
 execute "vagrant plugin install vagrant-berkshelf" do
   user node[:my_computer][:user]

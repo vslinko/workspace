@@ -123,6 +123,7 @@ if [ ! -f $HOME/workspace/projects/my_computer/Berksfile.lock ]; then
 
   _gem_ chef
   _gem_ berkshelf
+  _gem_ librarian-chef
 
   _vagrant_plugin_ vagrant-berkshelf
 
