@@ -1,3 +1,9 @@
 [submodule "projects/cookbook-vslinko"]
 	path = projects/cookbook-vslinko
 	url = git@github.com:vslinko/cookbook-vslinko.git
+[submodule "projects/polartour-chef-repo"]
+	path = projects/polartour-chef-repo
+	url = git@github.com:rithis/polartour-chef-repo.git
+[submodule "projects/skveez-chef-repo"]
+	path = projects/skveez-chef-repo
+	url = git@github.com:rithis-chef/skveez-chef-repo.git
