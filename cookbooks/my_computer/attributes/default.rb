@@ -20,6 +20,8 @@ default[:my_computer][:hackpad][:url] = "https://hackpad.com/static/app/HackPad-
 
 default[:my_computer][:one_password][:url] = "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac/1Password-3.8.21.zip"
 
+default[:my_computer][:opera][:url] = "http://get.geo.opera.com/ftp/pub/opera/mac/1164/Opera_11.64_Setup_Intel.dmg"
+
 default[:my_computer][:skitch][:url] = "http://cdn1.evernote.com/skitch/mac/release/Skitch-2.6.2.zip"
 
 default[:my_computer][:skype][:url] = "http://www.skype.com/go/getskype-macosx.dmg"
