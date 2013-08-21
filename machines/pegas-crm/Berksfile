@@ -4,7 +4,7 @@ cookbook "mongodb"
 
 cookbook "project_workspace", path: "../../cookbooks/project_workspace"
 cookbook "nodejs_workspace", path: "../../cookbooks/nodejs_workspace"
-cookbook "vslinko", path: "../cookbook-vslinko"
+cookbook "vslinko", github: "vslinko/cookbook-vslinko"
 
 # see https://github.com/opscode-cookbooks/apt/pull/53
 cookbook "apt", github: "opscode-cookbooks/apt"
