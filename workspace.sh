@@ -116,12 +116,12 @@ _workspace_() {
 _my_computer_() {
   _installing_ "my_computer"
 
-  $HOME/workspace/projects/my_computer/provision.sh
+  $HOME/workspace/my_computer/provision.sh
 
   _installed_ "my_computer"
 }
 
-if [ ! -f $HOME/workspace/projects/my_computer/Berksfile.lock ]; then
+if [ ! -f $HOME/workspace/my_computer/Berksfile.lock ]; then
   _homebrew_
 
   _rvm_
