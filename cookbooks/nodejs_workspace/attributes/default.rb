@@ -1,7 +1,8 @@
 default[:nodejs_workspace][:global_modules] = [
   "coffee-script",
   "grunt-cli",
-  "forever"
+  "forever",
+  "bower"
 ]
 
 default[:nodejs_workspace][:project][:name] = "nodejs_project"

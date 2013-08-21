@@ -90,6 +90,19 @@ _brew_() {
   _installed_ $name
 }
 
+_npm_() {
+  name=$1
+
+  _installing_ $name
+
+  npm list -g | grep " $name@" > /dev/null
+  if [ $? != 0 ]; then
+    npm install -g $name
+  fi
+
+  _installed_ $name
+}
+
 _workspace_() {
   _installing_ "workspace"
 
@@ -130,6 +143,11 @@ if [ ! -f $HOME/workspace/projects/my_computer/Berksfile.lock ]; then
   _brew_ git
   _brew_ vim
   _brew_ zsh
+  _brew_ node
+
+  _npm_ coffee-script
+  _npm_ grunt-cli
+  _npm_ bower
 
   _workspace_
 fi

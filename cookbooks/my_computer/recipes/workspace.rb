@@ -29,8 +29,16 @@ execute "vagrant plugin install vagrant-berkshelf" do
   not_if "vagrant plugin list | grep vagrant-berkshelf"
 end
 
-%w{ git vim zsh }.each do |package|
+%w{ git vim zsh node }.each do |package|
   package package
+end
+
+%w{ coffee-script grunt-cli bower }.each do |node_module|
+  execute "npm install -g #{node_module}" do
+    user node[:my_computer][:user]
+    group node[:my_computer][:group]
+    not_if "npm list -g | grep ' #{node_module}@'"
+  end
 end
 
 git "#{node[:my_computer][:home]}/workspace" do
